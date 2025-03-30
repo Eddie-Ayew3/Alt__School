@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Portfolio</title>
+</head>
+<body>
+    <header align="center">
+        <h1>My Media Portfolio</h1>
+        <p>Edmund Yaw Ayew Asamoah</p>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <hr>
+            <picture>
+                <!-- Mobile devices (small screens) -->
+                <source media="(max-width: 480px)" 
+                        srcset="../assets/2.png">
+                <!-- Tablets (medium screens) -->
+                <source media="(max-width: 768px)" 
+                        srcset="../assets/2.png">
+                <!-- Laptops (large screens) -->
+                <source media="(max-width: 1024px)" 
+                        srcset="../assets/2.png">
+                <!-- Desktop (extra large screens) -->
+                <source media="(min-width: 1025px)" 
+                        srcset="../assets/2.png">
+                <!-- Fallback image -->
+                <img src="../assets/2.png" 
+                     alt="Edmund Yaw Ayew Asamoah - Backend Engineer"
+                     style="max-width: 100%; height: auto;">
+            </picture>
+        </section>
+
+        <section id="about-me">
+            <h2 align="center">About Me</h2>
+            <hr>
+            <picture>
+                <!-- Mobile devices -->
+                <source media="(max-width: 480px)" 
+                        srcset="../assets/4.png">
+                <!-- Tablets -->
+                <source media="(max-width: 768px)" 
+                        srcset="../assets/4.png">
+                <!-- Laptops -->
+                <source media="(max-width: 1024px)" 
+                        srcset="../assets/4.png">
+                <!-- Desktop -->
+                <source media="(min-width: 1025px)" 
+                        srcset="../assets/4.png">
+                <!-- Fallback image -->
+                <img src="../assets/4.png" 
+                     alt="About Me"
+                     style="max-width: 100%; height: auto;">
+            </picture>
+        </section>
+        <section id="projects">
+            <h2 align="center">My Projects</h2>
+            <hr>
+            <picture>
+                <!-- Mobile devices -->
+                <source media="(max-width: 480px)" 
+                        srcset="../assets/10.png">
+                <!-- Tablets -->
+                <source media="(max-width: 768px)" 
+                        srcset="../assets/11.png">
+                <!-- Laptops -->
+                <source media="(max-width: 1024px)" 
+                        srcset="../assets/11.png">
+                <!-- Desktop -->
+                <source media="(min-width: 1025px)" 
+                        srcset="../assets/10.png">
+                <!-- Fallback image -->
+                <img src="../assets/10.png" 
+                     alt="My Project Portfolio"
+                     style="max-width: 100%; height: auto;">
+            </picture>
+            <p align="center">Showcasing my portfolio of projects and achievements</p>
+            <br>
+        </section>
+    </main>
+
+    <footer align="center">
+        <hr>
+        <p>Contact me at: <a href="mailto:edmundayew@gmail.com">edmundayew@gmail.com</a></p>
+    </footer>
+</body>
+</html> 
